@@ -1,4 +1,4 @@
-FROM golang:1.7
+FROM golang:1.6
 MAINTAINER Machiel Molenaar <machiel@machiel.me>
 
 RUN go get github.com/constabulary/gb/...
